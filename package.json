@@ -9,8 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
     "postcss-import": "^15.0.1",
     "postcss-nested": "^6.0.0",
+    "sanity-blocks-vue-component": "^1.0.1",
     "vue": "^3.2.41",
     "vue-router": "^4.1.6"
   },

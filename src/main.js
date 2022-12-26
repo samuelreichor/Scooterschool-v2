@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import './assets/css/global.pcss'
+import '../public/css/app.pcss'
 import App from './App.vue'
 import router from "./router/index.js"
 

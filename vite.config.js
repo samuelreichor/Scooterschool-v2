@@ -4,5 +4,12 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()]
+  resolve: {
+    alias: {
+      '@templates': path.resolve('./templates'),
+      '@assets': path.resolve('./assets'),
+    },
+  },
+  plugins: [vue()],
+  
 })

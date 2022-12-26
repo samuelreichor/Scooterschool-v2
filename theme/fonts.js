@@ -6,6 +6,5 @@
 
 
 module.exports = {
-    sans: ['Helvetica', 'sans-serif'],
-    serif: ['Times', 'serif'],
+    sans: ['Outfit', 'sans-serif'],
 };
