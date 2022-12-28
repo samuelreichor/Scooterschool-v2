@@ -1,7 +1,7 @@
 <template>
     <div :class="name">
         <div>
-            <a :href="btnLink" class="bg-primary text-black text-base px-8 py-2.5 gap-3 inline-flex border-2 border-black transition-all hover:bg-transparent hover:border-2 hover:border-primary hover:text-white">
+            <a :href="btnLink" class="bg-primary text-black text-base px-8 py-2 gap-3 inline-flex border-2 border-black transition-all hover:bg-transparent hover:border-2 hover:border-primary hover:text-white focus:outline-primary">
                 {{btnText}}
             </a>
         </div>

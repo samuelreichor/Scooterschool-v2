@@ -9,7 +9,7 @@ const breakpoints = require('./breakpoints').plain;
 const mobile = {
   fontSize: 16,
   ratio: 1.1,
-  breakpoint: breakpoints.min,
+  breakpoint: breakpoints.sm,
 };
 
 const desktop = {

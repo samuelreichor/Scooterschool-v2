@@ -1,10 +1,5 @@
 @layer base {
 
-  :root{
-
-  }
-
-
     body {
         @apply text-base;
         font-family: theme('fontFamily.sans');
@@ -12,7 +7,6 @@
         -webkit-font-smoothing: subpixel-antialiased;
         scroll-behavior: smooth;
         -moz-osx-font-smoothing: grayscale;
-
         @media screen {
         font-feature-settings: 'dlig' 0, 'liga' 0, 'lnum' 1, 'kern' 1;
         }
@@ -22,6 +16,20 @@
         width: 100%;
     }
 
+    p, span {
+        line-height: 1.3;
+    }
+
+    *::selection { 
+        background: theme('colors.primary.DEFAULT');
+        color: theme('colors.black'); 
+    }
+
+    *::-moz-selection {
+        background: theme('colors.primary.DEFAULT');
+        color: theme('colors.black'); 
+    }
+
 
     .container {
         position: relative;
@@ -29,7 +37,7 @@
         display: grid;
         margin: 0 auto;
         max-width: 108.7rem !important; /* 1740px */
-        padding: 0 theme('spacing.4');
+        padding: 0 theme('spacing.5');
         grid-template-columns: repeat(2, minmax(0, 1fr));
 
         @media screen(md) {
@@ -43,5 +51,18 @@
         @media screen(xl) {
             padding: 0 theme('spacing.32');
         }
+    }
+
+
+    .inside-container {
+        position: relative;
+        width: 100%;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        @media screen(md) {
+                grid-template-columns: repeat(12, minmax(0, 1fr));
+            }
     }
 }

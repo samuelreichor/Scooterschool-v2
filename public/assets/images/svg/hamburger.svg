@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.46 242.93">
-  <path d="M0,39.83V0H283.26V39.83H0Z"/>
-  <path d="M283.46,101.57v39.8H.05v-39.8H283.46Z"/>
-  <path d="M283.39,242.93H0v-39.95H283.39v39.95Z"/>
+  <path fill="#F8F8F8" d="M0,39.83V0H283.26V39.83H0Z"/>
+  <path fill="#F8F8F8" d="M283.46,101.57v39.8H.05v-39.8H283.46Z"/>
+  <path fill="#F8F8F8" d="M283.39,242.93H0v-39.95H283.39v39.95Z"/>
 </svg>
